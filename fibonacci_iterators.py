@@ -21,7 +21,7 @@ class fibonacci:
             raise StopIteration
 def main():
     fibo=fibonacci(10) 
-    #for i in range(1,100):  if I use it like this, it will raise an error when the iterator meets the "max" 
+    #for i in range(1,100):  if I use it like this, it will raise an error when the iterator meets the "max" taking into account I passed a max number to the Fibonassi iterator
      #   print(next(fibo))
     for i in fibo: 
         print(i)
